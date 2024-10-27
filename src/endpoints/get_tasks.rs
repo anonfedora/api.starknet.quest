@@ -103,7 +103,6 @@ pub async fn handler(
                 "desc": 1,
                 "completed": { "$gt": [ { "$size": "$completed" }, 0 ] },
                 "quiz_name": 1,
-                // Added missing fields to projection
                 "calls": 1,
                 "contracts": 1,
                 "api_url": 1,
